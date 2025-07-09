@@ -67,7 +67,6 @@ def menu():
               print("Opção inválida. Tente novamente.")
 
 def jogar():
-  import random, os
 
   nome = input("Digite seu nome de usuário: ")
   lucros = [0, 100, 250, 500, 1000, 1500, 2000, 2500, 5000, 10000, 15000, 25000, 50000, 100000, 150000, 250000,
